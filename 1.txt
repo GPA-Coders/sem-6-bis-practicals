@@ -1,0 +1,11 @@
+ping: Sends ICMP packets to a network host to measure round-trip times and record any packet loss.
+ipconfig: Displays all current TCP/IP network configuration values and refreshes DHCP and DNS settings.
+whois: Retrieves information about domain ownership and registration from a searchable database.
+tracert (traceroute on Linux/Mac): Shows the route packets take to a specific network host, displaying each hop and the time taken.
+arp: Displays or modifies entries in the Address Resolution Protocol (ARP) cache, which stores IP addresses and their resolved Ethernet or MAC addresses.
+tcpdump: Command-line packet analyzer that allows the user to display TCP/IP and other packets being transmitted or received over a network to which the computer is attached.
+host: DNS lookup utility that is used to find the IP address of a domain name or the domain name of an IP address.
+netstat: Displays network connections (both incoming and outgoing), routing tables, and a number of network interface statistics.
+nslookup: A network administration command-line tool used for querying the Domain Name System (DNS) to obtain domain name or IP address mapping or other specific DNS records.
+ftp: Transfers files to and from a remote network site using the File Transfer Protocol.
+telnet: Connects to a remote computer over the network using the Telnet protocol, primarily used for remote control of servers.

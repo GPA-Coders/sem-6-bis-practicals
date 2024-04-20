@@ -1,0 +1,20 @@
+1. Describe types of cyber attacks?
+Answer:
+Malware: Malicious software that harms or exploits systems, including viruses and ransomware.
+Phishing: Deceptive emails or communications designed to steal personal information.
+Denial-of-Service (DoS): Overloads a system to make it inaccessible to users.
+SQL Injection: Manipulates a database by inserting harmful SQL commands through user input.
+
+2. What measures can be taken to secure sensitive data and prevent unauthorized access in the event of a Trojan infection?
+Answer:
+Regular Software Updates: Keep all software, especially operating systems and applications, up to date to patch vulnerabilities that Trojans could exploit.
+Antivirus Software: Install and maintain reputable antivirus software to detect and remove Trojans and other malware.
+Firewall Protection: Use firewalls to block unauthorized access to your network, which can help prevent Trojans from sending data back to attackers.
+Data Encryption: Encrypt sensitive data so that even if access is gained, the data cannot be easily understood or misused.
+
+3. What steps can be taken to secure email communication and prevent Trojan infections through email attachments or links?
+Answer:
+Use Email Security Solutions: Deploy advanced email security solutions that include spam filters, virus scanning, and phishing detection to identify and block malicious emails before they reach the user.
+Enable Attachment Scanning: Configure email systems to automatically scan all incoming and outgoing attachments for malware. Restrict or block attachments with file types commonly associated with malware (e.g., .exe, .scr).
+Implement Email Gateway Filters: Use email gateway filtering solutions to scrutinize emails for malicious links and attachments at the perimeter of your network.
+Apply URL Filtering: Implement URL filters that block access to known malicious websites and verify the safety of URLs by checking against constantly updated databases.

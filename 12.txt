@@ -1,0 +1,15 @@
+1. Why is Kali Linux used for Cyber Security?
+Answer:
+Kali Linux is favored in cybersecurity due to its pre-installation of numerous security-related tools, support for a wide range of wireless devices, and a robust development community, making it a versatile platform for security testing and penetration testing.
+
+2. List and explain different tools available in Kali Linux.
+Answer:
+Nmap: Network mapping tool for network discovery and security auditing.
+Metasploit: Framework for developing and executing exploit code against a remote target machine.
+Wireshark: Network protocol analyzer used to capture and analyze network traffic in real-time.
+Aircrack-ng: Suite of tools for assessing WiFi network security focusing on network traffic analysis and password cracking.
+Burp Suite: Integrated platform for performing security testing of web applications.
+
+3. What are the primary use cases for Kali Linux?
+Answer:
+Kali Linux is primarily used for penetration testing, security research, computer forensics, and vulnerability testing. It's a preferred choice for ethical hackers to assess network security, analyze system vulnerabilities, and test protective measures against cyber threats.

@@ -1,0 +1,18 @@
+1. What is the filter command for listing all the packets between source and destination?
+Answer:
+(ip.src == X.X.X.X && ip.dst == Y.Y.Y.Y) || (ip.src == Y.Y.Y.Y && ip.dst == X.X.X.X)
+Where, X.X.X.X is the source IP Address
+       Y.Y.Y.Y is the destination IP Address
+
+2. If a packet is highlighted by black, what does it mean for the packet?
+Answer:
+If a packet is highlighted in black in Wireshark, it typically indicates that there is a problem with the packet, such as it being malformed or a part of a potentially malicious activity like a TCP reset attack. This color coding is part of Wireshark's default color scheme, where black is used to denote packets that are marked as having errors.
+
+3. What is the filter command for listing all outgoing http traffic?
+Answer:
+http.request and ip.src == X.X.X.X
+Where, X.X.X.X is our own IP Address
+
+4. Why does DNS use Follow UDP Stream while HTTP uses Follow TCP Stream?
+Answer:
+DNS uses UDP, which is efficient for short, quick exchanges typical of DNS queries. Therefore, Wireshark uses "Follow UDP Stream" for DNS. In contrast, HTTP uses TCP, which provides reliable data transmission necessary for web communications, hence the use of "Follow TCP Stream" for HTTP in Wireshark.
